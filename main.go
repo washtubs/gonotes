@@ -13,7 +13,7 @@ import (
 )
 
 func defaultNotesLocation() string {
-	return path.Join(os.Getenv("HOME"), "notes-debug")
+	return path.Join(os.Getenv("HOME"), "notes")
 }
 
 func parseAndFormatNote(dir fs.FS, notePath string, in io.WriteCloser) error {
