@@ -1,4 +1,4 @@
-module github.com/washtubs/notes
+module github.com/washtubs/gonotes
 
 go 1.16
 
